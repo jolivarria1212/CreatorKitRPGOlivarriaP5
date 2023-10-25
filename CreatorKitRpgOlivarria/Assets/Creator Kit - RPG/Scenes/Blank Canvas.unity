@@ -65560,12 +65560,12 @@ PrefabInstance:
     - target: {fileID: 1725311127559376840, guid: 4ca9604554bc54f608984cba5088222e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.29
+      value: -4.16
       objectReference: {fileID: 0}
     - target: {fileID: 1725311127559376840, guid: 4ca9604554bc54f608984cba5088222e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.57
+      value: 6.11
       objectReference: {fileID: 0}
     - target: {fileID: 1725311127559376840, guid: 4ca9604554bc54f608984cba5088222e,
         type: 3}
@@ -69235,6 +69235,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2111136175}
+  - component: {fileID: 2111136176}
   m_Layer: 0
   m_Name: Quest Villager
   m_TagString: Untagged
@@ -69257,6 +69258,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 448723135}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2111136176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111136174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450b86d94d0b945a48b3ba1ce41dcc52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Crate Quest
+  desc: fetch crate for villager
+  questInProgressConversation: {fileID: 0}
+  questCompletedConversation: {fileID: 0}
+  spawnMode: 0
+  enableOnQuestStart: []
+  spawnOnQuestStart: []
+  requiredItems: []
+  spawnOnQuestComplete: []
+  rewardItems: []
+  destroySpawnsOnQuestComplete: 1
+  introCutscenePrefab: {fileID: 0}
+  outroCutscenePrefab: {fileID: 0}
+  isStarted: 0
+  isFinished: 0
 --- !u!1 &2128912654
 GameObject:
   m_ObjectHideFlags: 0
